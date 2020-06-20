@@ -122,13 +122,13 @@ function addChat(input, product) {
   const mainDiv = document.getElementById("main");
   let userDiv = document.createElement("div");
   userDiv.id = "user";
-  userDiv.innerHTML = `<img src="images/malik.jpeg" alt="Me" class="image-design"> <span id="user-response" class="color1">${input}</span>`;
+  userDiv.innerHTML = `<img src="images/malik.jpeg" alt="Me" class="image-design"> <span id="user-response" class="color1">${input}</span><small>${time}</small>`;
 
   mainDiv.appendChild(userDiv);
 
   let botDiv = document.createElement("div");
   botDiv.id = "bot";
-  botDiv.innerHTML = `<img src="images/bot.png" alt="Me" class="image-design"> <span id="bot-response" class="color2">${product}</span>`;
+  botDiv.innerHTML = `<img src="images/bot.png" alt="Me" class="image-design"> <span id="bot-response" class="color2">${product}</span><small>${time}</small>`;
 
   mainDiv.appendChild(botDiv);
   speak(product);

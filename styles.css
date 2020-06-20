@@ -37,6 +37,7 @@ span {
 	margin: 10px; 
 } 
 #input { 
+    
 	border: 0; 
 	padding: 5px; 
 	border: 1px solid #421; 
@@ -58,4 +59,9 @@ span {
     background-color: #82ccdd;
     border-radius: 20px;
     padding: 0px 10px 0 10px ;
+}
+
+small{
+    font-size: 10px;
+    margin-left: 10px;
 }
